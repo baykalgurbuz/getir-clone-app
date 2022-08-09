@@ -19,6 +19,7 @@ export default function HeroSection() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay:false
   };
 
   return (
@@ -80,11 +81,12 @@ export default function HeroSection() {
             </label>
           </div>
 
-        
-            <button className="bg-brand-yellow  h-12 flex items-center justify-center hover:bg-primary-brand-color  hover:text-brand-yellow rounded-md w-full text-sm font-semibold text-primary-brand-color">
+       
+            <button className="bg-brand-yellow mt-3 h-12 flex items-center justify-center hover:bg-primary-brand-color  hover:text-brand-yellow rounded-md w-full text-sm font-semibold text-primary-brand-color" >
               Telefon Numarası İle Devam Et
             </button>
         
+   
         </div>
       </div>
     </div>
