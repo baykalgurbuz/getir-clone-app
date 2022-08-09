@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ReactFlagsSelect from "react-flags-select";
 import { useState } from "react";
+
 export default function HeroSection() {
   const [selected, setSelected] = useState("TR");
   const phones = {
@@ -17,9 +18,12 @@ export default function HeroSection() {
     dots: true,
     infinite: true,
     speed: 500,
+    arroes:false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay:false
+    autoplay:true,
+    autoplaySpeed:3500,
+    cssEase:"linear"
   };
 
   return (

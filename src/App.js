@@ -15,11 +15,13 @@ function App() {
     <>
     <Header/>
     <HeroSection/>
-    <Categories/>
+    <Categories/>  
+      
+     <Campaings/>
     <Favorites/>
  
     <Cards/>
-    <Campaings/>
+ 
     <MobileApp/>
     <Footer/>
     </>

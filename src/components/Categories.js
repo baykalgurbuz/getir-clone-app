@@ -14,7 +14,7 @@ export default function Categories() {
   return (
     <div className='bg-white py-4'>
       <div className='container mx-auto'>
-        <h3 className='text-sm font-semibold  '>Kategoriler</h3>
+        <h3 className='text-sm font-semibold'>Kategoriler</h3>
         <div className='grid grid-cols-10'>
         {!categories.length && 'Dayanın Az Kaldı Geliyor ...'}
           {categories && categories.map((category,index)=><Category key={index} category={category}/>)}
