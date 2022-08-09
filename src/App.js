@@ -9,7 +9,7 @@ import MobileApp from "./components/MobileApp";
 
 function App() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Header />
       <HeroSection />
       <Categories />
@@ -20,7 +20,7 @@ function App() {
       <Cards />
 
       <Footer />
-    </>
+    </div>
   );
 }
 
